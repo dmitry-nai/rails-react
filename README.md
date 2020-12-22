@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails project with React front-end. Created for petvote test.
 
-Things you may want to cover:
+* Ruby version 2.6.0
+  
+* Rails version 6.1.0
 
-* Ruby version
+* React version 17.0.1
 
-* System dependencies
+* DB PostgreSQL
 
-* Configuration
+Project Setup
 
-* Database creation
+* yarn install
 
-* Database initialization
+* rails db:create
 
-* How to run the test suite
+* rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+* ngrok configured in config/environment/development.rb.
 
-* Deployment instructions
-
-* ...
+* If you need to host project with ngrok, run this "./ngrok http 3000" after install ngrok on your local machine.
